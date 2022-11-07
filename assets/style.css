@@ -1,0 +1,49 @@
+:roo{
+    background-color: black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* Header */
+
+header{
+    background-color: black;
+    width  : 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    padding: 0px 30px;
+}
+
+.logo{
+    height: 80%;
+    gap: 30px;
+}
+
+.navbar,
+.navbar-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar{
+    gap: 50px;
+}
+
+.navbar-list{
+    gap: 30px
+}
+
+.navbar-list a{
+    color: beige;
+    font-size: 14px;    
+}
+
